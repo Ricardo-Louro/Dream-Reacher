@@ -20,7 +20,7 @@ public class CameraMovement : MonoBehaviour
             SetCameraPosition();
             RotateCamera();
 
-            playerMovement.RotatePlayer();
+            //playerMovement.RotatePlayer();
         }
     }
 
