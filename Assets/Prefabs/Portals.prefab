@@ -214,6 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0309cc66582e0894f8bf74581daea909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pairedPortal: {fileID: 8050140698625124041}
   exit_position: {fileID: 5505846430611413379}
 --- !u!4 &5476025404436010286 stripped
 Transform:
@@ -340,6 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0309cc66582e0894f8bf74581daea909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pairedPortal: {fileID: 5476025404436010286}
   exit_position: {fileID: 3691699746978419184}
 --- !u!4 &8050140698625124041 stripped
 Transform:

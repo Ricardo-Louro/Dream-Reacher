@@ -3,7 +3,6 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     private PlayerMovement playerMovement;
-
     [SerializeField] private float heightOffset;
     [SerializeField] private float mouseSensitivity;
 
@@ -48,5 +47,12 @@ public class CameraMovement : MonoBehaviour
         rotation.x = Mathf.Clamp(rotation.x, -80, 80);
 
         transform.rotation = Quaternion.Euler(rotation);
+    }
+
+    public void SetCameraRotation(Vector3 value)
+    {
+        transform.rotation = Quaternion.Euler(value);
+        rotation = value;
+
     }
 }
