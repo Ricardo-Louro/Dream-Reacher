@@ -4,18 +4,22 @@ public class FallOffMapProtection : MonoBehaviour
 {
     [SerializeField] private float minimumHeight;
     [SerializeField] private Vector3 resetPosition;
+    [SerializeField] private Vector3 resetRotation;
+    private CameraMovement cameraMovement;
     private Transform playerTransform;
 
     private void Update()
     {
-        if(transform == null)
+        if(playerTransform == null)
         {
             playerTransform = FindObjectOfType<PlayerMovement>().transform;
+            cameraMovement = FindObjectOfType<CameraMovement>();
         }
 
-        if(transform.position.y >= minimumHeight)
+        if(playerTransform.position.y <= minimumHeight)
         {
             playerTransform.position = resetPosition;
+            cameraMovement.SetCameraRotation(resetRotation);
         }
     }
 }
