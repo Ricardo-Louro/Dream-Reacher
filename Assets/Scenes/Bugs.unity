@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 1284836986}
   - component: {fileID: 1284836991}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: J
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64c9621c46d7e1449b6e89519d88c191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpSpeed: 100
+  jumpSpeed: 15
 --- !u!1 &1467593855
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +384,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heightOffset: 1.5
-  mouseSensitivity: 0.3
+  forwardOffset: 0.3
+  mouseSensitivity: 0.4
 --- !u!114 &1467593857
 MonoBehaviour:
   m_ObjectHideFlags: 0
