@@ -4,6 +4,7 @@ public class CameraMovement : MonoBehaviour
 {
     private PlayerMovement playerMovement;
     [SerializeField] private float heightOffset;
+    [SerializeField] private float forwardOffset;
     [SerializeField] private float mouseSensitivity;
 
     private Vector3 rotation;
@@ -36,6 +37,7 @@ public class CameraMovement : MonoBehaviour
     {
         Vector3 pos = playerMovement.transform.position;
         pos.y += heightOffset;
+        pos += playerMovement.transform.forward * forwardOffset;
         transform.position = pos;
     }
 
@@ -44,7 +46,7 @@ public class CameraMovement : MonoBehaviour
         rotation.x -= Input.GetAxis("Mouse Y");
         rotation.y += Input.GetAxis("Mouse X");
         
-        rotation.x = Mathf.Clamp(rotation.x, -80, 80);
+        rotation.x = Mathf.Clamp(rotation.x, -90, 90);
 
         transform.rotation = Quaternion.Euler(rotation);
     }
