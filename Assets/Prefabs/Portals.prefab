@@ -175,6 +175,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1179805515086380646}
   m_SourcePrefab: {fileID: 100100000, guid: f6b99def42b6e2b45888bfe7c91e1843, type: 3}
+--- !u!4 &3130213748814083774 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7423262298687030395, guid: f6b99def42b6e2b45888bfe7c91e1843,
+    type: 3}
+  m_PrefabInstance: {fileID: 5509161744294032069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4662651384806248340 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f6b99def42b6e2b45888bfe7c91e1843,
@@ -214,8 +220,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0309cc66582e0894f8bf74581daea909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pairedPortal: {fileID: 8050140698625124041}
   exit_position: {fileID: 5505846430611413379}
+  exit_rotation: {x: 0, y: 0, z: 0}
+  portalInside: {fileID: 3130213748814083774}
+  rotationIncrement: 1.5
 --- !u!4 &5476025404436010286 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6b99def42b6e2b45888bfe7c91e1843,
@@ -302,6 +310,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 7917442745384646528}
   m_SourcePrefab: {fileID: 100100000, guid: f6b99def42b6e2b45888bfe7c91e1843, type: 3}
+--- !u!4 &1097146123534992729 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7423262298687030395, guid: f6b99def42b6e2b45888bfe7c91e1843,
+    type: 3}
+  m_PrefabInstance: {fileID: 7511266600025735458}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7276700979700399219 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f6b99def42b6e2b45888bfe7c91e1843,
@@ -341,8 +355,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0309cc66582e0894f8bf74581daea909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pairedPortal: {fileID: 5476025404436010286}
   exit_position: {fileID: 3691699746978419184}
+  exit_rotation: {x: 0, y: 0, z: 0}
+  portalInside: {fileID: 1097146123534992729}
+  rotationIncrement: 1.5
 --- !u!4 &8050140698625124041 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6b99def42b6e2b45888bfe7c91e1843,

@@ -6,9 +6,20 @@ public class Portal : MonoBehaviour
     [SerializeField] private Vector3 exit_rotation;
     private CameraMovement cameraMovement;
 
+    [SerializeField] private Transform portalInside;
+    [SerializeField] private float rotationIncrement;
+
+
     private void Start()
     {
         cameraMovement = FindObjectOfType<CameraMovement>();
+    }
+
+    private void Update()
+    {
+        Vector3 rot = portalInside.transform.rotation.eulerAngles;
+        rot.z += rotationIncrement;
+        portalInside.transform.rotation = Quaternion.Euler(rot);
     }
     
     private void OnCollisionEnter(Collision collision)
