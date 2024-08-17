@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Ray ray = new Ray(transform.position, -transform.up);
-        grounded = Physics.SphereCast(ray, 0.5f, playerHeight/3, whatIsGround);
+        grounded = Physics.SphereCast(ray, 0.5f, playerHeight, whatIsGround);
 
         MyInput();
         SpeedControl();
