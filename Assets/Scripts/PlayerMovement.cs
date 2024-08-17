@@ -24,9 +24,6 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask whatIsGround;
     bool grounded;
 
-
-    public Transform orientation;
-
     float horizontalInput;
     float verticalInput;
 
@@ -74,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
 
    private void MovePlayer()
    {
-        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        moveDirection = transform.forward * verticalInput + transform.right * horizontalInput;
 
         if(grounded)
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
@@ -103,5 +100,12 @@ public class PlayerMovement : MonoBehaviour
    private void ResetJump()
    {
         readyToJump = true;
+   }
+
+   public void RotatePlayer(float value)
+   {
+        Vector3 rotation = Vector3.zero;
+        rotation.y = value;
+        transform.rotation = Quaternion.Euler(rotation);
    }
 }

@@ -7,6 +7,15 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private float heightOffset;
     [SerializeField] private float mouseSensitivity;
 
+    private Vector3 rotation;
+
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+        rotation = transform.rotation.eulerAngles;
+    }
     // Update is called once per frame
     private void Update()
     {
@@ -20,7 +29,7 @@ public class CameraMovement : MonoBehaviour
             SetCameraPosition();
             RotateCamera();
 
-            //playerMovement.RotatePlayer();
+            playerMovement.RotatePlayer(transform.rotation.eulerAngles.y);
         }
     }
 
@@ -33,12 +42,10 @@ public class CameraMovement : MonoBehaviour
 
     private void RotateCamera()
     {
-
-        Vector3 rotation = transform.rotation.eulerAngles;
         rotation.x -= Input.GetAxis("Mouse Y");
         rotation.y += Input.GetAxis("Mouse X");
         
-        rotation.y = Mathf.Clamp(rotation.y, -90, 90);
+        rotation.x = Mathf.Clamp(rotation.x, -80, 80);
 
         transform.rotation = Quaternion.Euler(rotation);
     }
