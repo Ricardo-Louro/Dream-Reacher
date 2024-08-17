@@ -150,8 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   groundDrag: 2
-  jumpForce: 5
-  jumpCooldown: 0.25
+  jumpForce: 6.5
+  jumpCooldown: 0.5
   airMultiplier: 0.2
   jumpKey: 32
   playerHeight: 2
