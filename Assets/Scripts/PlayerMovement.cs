@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float playerHeight;
     public LayerMask whatIsGround;
-    bool grounded;
+    public bool grounded;
 
     float horizontalInput;
     float verticalInput;
@@ -40,7 +40,6 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Ray ray = new Ray(transform.position, -transform.up);
-        grounded = Physics.SphereCast(ray, 0.5f, playerHeight, whatIsGround);
 
         MyInput();
         SpeedControl();
