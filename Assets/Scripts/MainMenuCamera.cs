@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenuCamera : MonoBehaviour
 {
@@ -22,5 +23,10 @@ public class MainMenuCamera : MonoBehaviour
         Vector3 lookPos = islandTransform.position;
         lookPos.y += .2f;
         cameraTransform.LookAt(lookPos);
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
     }
 }
