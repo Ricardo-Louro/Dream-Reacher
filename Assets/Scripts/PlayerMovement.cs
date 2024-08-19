@@ -30,11 +30,15 @@ public class PlayerMovement : MonoBehaviour
     Vector3 moveDirection;
     
     Rigidbody rb;
+
+    private AudioSource audioSource;
     
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -93,6 +97,8 @@ public class PlayerMovement : MonoBehaviour
 
    private void Jump()
    {
+        audioSource.pitch = Random.Range(1f, 1.2f);
+        audioSource.Play();
         rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
    }
