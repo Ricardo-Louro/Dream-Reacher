@@ -3,19 +3,20 @@ using UnityEngine;
 public class SkyboxAndSongSwitcher : MonoBehaviour
 {
     private Transform playerTransform;
-    [SerializeField] private Material magicSkybox;
     [SerializeField] private float magicSkyboxLimit;
-    [SerializeField] private Material pirateSkybox;
-    [SerializeField] private float pirateSkyboxLimit;
-    [SerializeField] private Material spaceSkybox;
-
+    [SerializeField] private Material magicSkybox;
     [SerializeField] private AudioSource magicAudioSource;
+
+    [SerializeField] private float pirateSkyboxLimit;
+    [SerializeField] private Material pirateSkybox;
     [SerializeField] private AudioSource pirateAudioSource;
+
+    [SerializeField] private Material spaceSkybox;
     [SerializeField] private AudioSource spaceAudioSource;
  
     private void Start()
     {
-        playerTransform = FindObjectOfType<Transform>().transform;
+        playerTransform = FindObjectOfType<PlayerMovement>().transform;
         magicAudioSource.Play();
     }
 
@@ -29,7 +30,7 @@ public class SkyboxAndSongSwitcher : MonoBehaviour
             pirateAudioSource.Stop();
             spaceAudioSource.Stop();
         }
-        else if(playerTransform.position.y > magicSkyboxLimit &&
+        else if(playerTransform.position.y >= magicSkyboxLimit &&
                 playerTransform.position.y < pirateSkyboxLimit &&
                 RenderSettings.skybox != pirateSkybox)
         {
@@ -38,13 +39,12 @@ public class SkyboxAndSongSwitcher : MonoBehaviour
             pirateAudioSource.Play();
             spaceAudioSource.Stop();
         }
-        else
+        else if(playerTransform.position.y >= pirateSkyboxLimit && RenderSettings.skybox != spaceSkybox)
         {
             RenderSettings.skybox = spaceSkybox;
             magicAudioSource.Stop();
             pirateAudioSource.Stop();
             spaceAudioSource.Play();
         }
-        
     }
 }
