@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f6b99def42b6e2b45888bfe7c91e1843
+guid: 9f027380cb361f54d9d489752cd94407
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: PortalSurface
-    second: {fileID: 2100000, guid: d9904305dfe4279488d5ca7a76f44c85, type: 2}
+      name: Gun_Textures
+    second: {fileID: 2100000, guid: 5b6c80788658218419e1e519c5568c33, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
