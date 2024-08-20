@@ -1,0 +1,59 @@
+Assets used in the creation of this videogame:
+
+https://sketchfab.com/3d-models/stylised-sky-player-home-dioroma-6597e6c9a5184f07a638ac33c08c2ad5 - island
+https://sketchfab.com/3d-models/astronomic-map-7baae153c17b4985a7280a04829f8c31 - lil map
+https://sketchfab.com/3d-models/magic-ring-e21a9ec79de54ce0ba010d15c3109fad - crystal ring
+https://sketchfab.com/3d-models/magic-crystal-7da36ddc2a28494586269bca7d4a7942 - red crystal
+https://sketchfab.com/3d-models/magic-potion-5f8bf93b2f074abeb183fa7cc6448f75 - potion
+https://sketchfab.com/3d-models/magic-portal-dc447f04768a4bfe8932d976bd2b1677 - portal
+https://sketchfab.com/3d-models/magic-sword-2e0ae41235364282b34e735e6161fc16 - magic sword
+https://sketchfab.com/3d-models/gold-band-ring-e30b4da9ebdb41e997fd8bc455d43e0b - gold ring
+https://sketchfab.com/3d-models/fantasy-ring-fcee0522005246c08d50b05de3365f6b - emerald ring
+https://sketchfab.com/3d-models/old-ring-3f68bf10f97d4414a32227f1300577f3 - old ring
+https://sketchfab.com/3d-models/demon-sword-9b385527820545a39bacf4410297767c - demon sword
+https://sketchfab.com/3d-models/bastard-sword-lowpoly-0abc58fc45c14959a1762e8283992a62 - bastard sword
+https://sketchfab.com/3d-models/viking-sword-game-model-a05d0bd73e9e4508b873ffd7b6a6238d - viking sword
+https://sketchfab.com/3d-models/sword-kusanagi-no-tsurugi-b12a8ff6ae194867beb88cb2e0fbf6c2 - weird sword
+https://sketchfab.com/3d-models/sword-asset-44db7c2d80f34acf88a1999c2dd51230 - fat sword
+https://sketchfab.com/3d-models/weighted-wood-platform-6daf79008ad0418c90bd4b61a31c6c66- wood platform
+https://sketchfab.com/3d-models/wooden-plank-25e247b769e444c4be344e69106d32a7 - wood plank
+https://sketchfab.com/3d-models/magic-chest-f1da2ce3fcc9461fac5cca28fcb4d323 - magic chest 
+https://sketchfab.com/3d-models/kites-in-clouds-127390bafd6a40ca9b96f27d40548970 - clouds
+https://sketchfab.com/3d-models/roman-coins-ea59329cf7204686b0b4a6badd70754d - chest floor coins
+https://sketchfab.com/3d-models/stylized-pirate-coin-9135d081eaa74842a121fc3c81291aa3 - pirate coin
+https://sketchfab.com/3d-models/pirate-coin-game-ready-asset-7f5bd42a45164a64a20a39a8c37befb5 - pirate coin detailed
+https://sketchfab.com/3d-models/simple-pirate-coin-882c100156204d29b3628334ab0e9928 - simple pirate coin
+https://sketchfab.com/3d-models/ancient-coin-of-the-bevel-33ef30ca765e4c04a403f32d479db46b - ancient coin
+-https://sketchfab.com/3d-models/tentacle-riged-5330ffa12f4741eca73c9714d90e79dc - tentacle
+https://sketchfab.com/3d-models/a-pirate-sword-0b4f8559239044d48b175c80039fe63d - pirate sword
+https://sketchfab.com/3d-models/pirate-bottle-9d9daf6486c54361b740c42d34ca853b -  rum
+https://sketchfab.com/3d-models/pirate-skull-af9c3628648f471598aa7da4ccef58c5 - pirte skull
+https://sketchfab.com/3d-models/pirate-cannon-3c84e18c6b24408fa55156a72bf68b57 - cannon
+https://sketchfab.com/3d-models/stylized-pirate-diorama-430d67d59f7c409a9bbc0b28d5ad3a24 - diorama
+https://sketchfab.com/3d-models/the-kraken-0558079e9d9745adb8144f70ea3b30a4 - kraken
+https://sketchfab.com/3d-models/simple-short-crate-a2bf450ffba34be5a997b74d4bb7c8b6 - wood box
+https://sketchfab.com/3d-models/pirate-flintlock-pistol-1b1faf39ee40460294412c78e11cb6f0 - flintlock
+https://sketchfab.com/3d-models/hall-anchor-game-ready-4284768cab774420b1876b90a03978d0 - small anchor
+https://sketchfab.com/3d-models/old-bronze-anchor-cdd15e90d30d4b07a3ff38eaa20bf896 - big anchor
+https://sketchfab.com/3d-models/iron-chain-6d079f01c7c142e0be54d7f2d33b33e6 - chains
+https://sketchfab.com/3d-models/skeleton-arm-d106d3a0a91a4e11a4db07f72441e27d - skeleton arm
+https://sketchfab.com/3d-models/orange-fish-3564578cde5c42279ead680df1619e3c - fish
+https://sketchfab.com/3d-models/fish-a30965515ae3451da9fa9646cc2fb8d6 - gold fish skeleton
+https://sketchfab.com/3d-models/blue-whale-skeleton-8502dbef80ed4aa688c13c90cb14de73 - whale skeleton
+https://sketchfab.com/3d-models/pirate-crab-917bd868bfc04121ab289ac2dbe5d3ae - pirate crab
+https://sketchfab.com/3d-models/boat-5cdc4fc134e84a8d97fb2d3ffaf5c5fb - boat
+https://sketchfab.com/3d-models/crystals-15b96cb193cc4610a4337cdd1926e999 - purple crystal
+https://sketchfab.com/3d-models/magic-ring-e21a9ec79de54ce0ba010d15c3109fad - magic ring
+https://sketchfab.com/3d-models/medieval-sword-da574cba504e4b83a3293f3d3bd067fb - medieval sword
+https://sketchfab.com/3d-models/spell-book-a9e831fea546419e80f469f8ece8ee8a - spell book
+https://sketchfab.com/3d-models/cool-spaceship-with-logo-f4fc805112f542c89a04fc56847f1aac - large spaceship
+https://sketchfab.com/3d-models/spaceship-6164a883f57f4f13938c3c5999bc0e1f - small spaceship
+https://sketchfab.com/3d-models/sci-fi-obelisk-7623c95681b1400f9b536f84b24c7300 - obelisk
+https://sketchfab.com/3d-models/sci-fi-personal-space-pod-shipweekly-challenge-b158f01dd4a9416fb689ca4401856e7a - round spaceship
+https://sketchfab.com/3d-models/earth-41fc80d85dfd480281f21b74b2de2faa - Earth
+https://sketchfab.com/3d-models/bed-52151e6a6bbc47889330701253e1f6bb - bed
+
+https://youtu.be/nsiWuwMqpPc?si=1JGGyBUGo98JTf9o - main menu theme
+https://youtu.be/eKMxnrDiwYA?si=qYjgp9yTb6rGsBx1 - magic area theme
+https://youtu.be/Nn9K9E5UI6s?si=eA3dS8u2-P7yQeM7 - pirate area theme
+https://youtu.be/ozb32hgHdo4?si=h0q6I1bbwEJvCxm6 - space area theme
