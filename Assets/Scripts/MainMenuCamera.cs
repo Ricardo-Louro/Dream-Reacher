@@ -11,7 +11,10 @@ public class MainMenuCamera : MonoBehaviour
     private void Start()
     {
         cameraTransform = Camera.main.transform;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
     }
+
     private void Update()
     {
         angle += angleIncrements * Time.deltaTime;
