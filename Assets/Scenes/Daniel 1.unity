@@ -7229,7 +7229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ab783707d00cf45bcba473acd114dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portalInside: {fileID: 0}
+  portalInside: {fileID: 1832271817}
   rotationIncrement: 1.5
 --- !u!4 &254180826 stripped
 Transform:
@@ -8103,7 +8103,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 90.17401
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7917442745384646528, guid: 8dca83255de28874795173e5950b58d4, type: 3}
+    - {fileID: 1179805515086380646, guid: 8dca83255de28874795173e5950b58d4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -13102,7 +13104,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -83.9
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1179805515086380646, guid: 8dca83255de28874795173e5950b58d4, type: 3}
+    - {fileID: 7917442745384646528, guid: 8dca83255de28874795173e5950b58d4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -15225,7 +15229,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 90.17401
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7917442745384646528, guid: 8dca83255de28874795173e5950b58d4, type: 3}
+    - {fileID: 1179805515086380646, guid: 8dca83255de28874795173e5950b58d4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -18432,6 +18438,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 728a9f1fe3a5ee34a85b877522c77002,
     type: 3}
   m_PrefabInstance: {fileID: 2003979951}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &688525622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1097146123534992729, guid: 8dca83255de28874795173e5950b58d4,
+    type: 3}
+  m_PrefabInstance: {fileID: 462233229}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &688822176
 PrefabInstance:
@@ -24480,7 +24492,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 90.17401
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7917442745384646528, guid: 8dca83255de28874795173e5950b58d4, type: 3}
+    - {fileID: 1179805515086380646, guid: 8dca83255de28874795173e5950b58d4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -27850,7 +27864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ab783707d00cf45bcba473acd114dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portalInside: {fileID: 0}
+  portalInside: {fileID: 688525622}
   rotationIncrement: 1.5
 --- !u!1001 &990322159
 PrefabInstance:
@@ -27928,17 +27942,17 @@ PrefabInstance:
     - target: {fileID: 6731449972330133220, guid: 239917fdfbb618b48bda6be7d62fb7b2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.99
+      value: -3.73
       objectReference: {fileID: 0}
     - target: {fileID: 6731449972330133220, guid: 239917fdfbb618b48bda6be7d62fb7b2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 407.24
+      value: 18.03
       objectReference: {fileID: 0}
     - target: {fileID: 6731449972330133220, guid: 239917fdfbb618b48bda6be7d62fb7b2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.68
+      value: 9.73
       objectReference: {fileID: 0}
     - target: {fileID: 6731449972330133220, guid: 239917fdfbb618b48bda6be7d62fb7b2,
         type: 3}
@@ -43967,7 +43981,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 29.941
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7917442745384646528, guid: 8dca83255de28874795173e5950b58d4, type: 3}
+    - {fileID: 1179805515086380646, guid: 8dca83255de28874795173e5950b58d4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -49128,6 +49144,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1856234362}
   m_SourcePrefab: {fileID: 100100000, guid: 8dca83255de28874795173e5950b58d4, type: 3}
+--- !u!4 &1832271817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3130213748814083774, guid: 8dca83255de28874795173e5950b58d4,
+    type: 3}
+  m_PrefabInstance: {fileID: 462233229}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1832946857
 PrefabInstance:
   m_ObjectHideFlags: 0
