@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Daniel 1.unity
     guid: f2afcf17bc59ba244bf2a7f5ca6612ea
+  - enabled: 1
+    path: Assets/Scenes/Ivan.unity
+    guid: 7b213a5d8aad0a84c9bd92b4c81ea363
   m_configObjects: {}
