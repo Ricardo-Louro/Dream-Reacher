@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 121776b733c687048989bccb26e031f4
+guid: b49db11ad5f968d468f2cd13e6223c3e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: evil_light
-    second: {fileID: 2100000, guid: b08c97d68209a4c4ca4e642ef9424d72, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
